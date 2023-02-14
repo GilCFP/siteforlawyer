@@ -1,0 +1,223 @@
+@import url('https://fonts.cdnfonts.com/css/itc-avant-garde-gothic-std-book');
+
+html {
+	scroll-behavior: smooth;
+}
+p {
+  text-align: justify;
+  padding-left: 5%;
+  margin: 0;
+}
+section a{
+  color: #202038;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  text-align: justify;
+}
+section a:hover{
+  color: #a18b4f;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-size: larger;
+  font-family: 'ITC Avant Garde Gothic Std Book', sans-serif;
+}
+
+a:hover {
+  color: #202038;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+/*HEADER*/
+header {
+  min-width: 100vw;
+  position: fixed;
+  background-color: #a18b4f;
+  box-shadow: 0px 0px 10px #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.title {
+  color: #202038;
+  margin-bottom: 0;
+  font-family: 'ITC Avant Garde Gothic Std Book', sans-serif;
+  white-space: nowrap;
+  
+}
+
+.subtitle {
+  color: white;
+  margin-top: 0;
+  font-family: 'ITC Avant Garde Gothic Std Book', sans-serif;
+  white-space: nowrap;
+}
+
+.div-header-title {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1em;
+}
+
+header img {
+  height: 50px;
+  width: 50px;
+  align-self: center;
+}
+
+#header-links {
+  display: flex;
+}
+
+.display-list {
+  display: block;
+  align-items: center;
+}
+/*Container*/
+.container {
+
+  padding: 7em 20%;
+  
+}
+/*Section*/
+section h2
+{
+  color: #a18b4f;
+  font-family: 'ITC Avant Garde Gothic Std Book', sans-serif;
+  font-size: xx-large;
+}
+section p
+{
+  color: #202038;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+}
+/*Equipe*/
+section h3{
+  padding-left: 3%;
+  color: #202038;
+  font-family: 'ITC Avant Garde Gothic Std Book', sans-serif;
+  font-size: x-large;
+  margin-bottom: 1%;
+}
+.equipe h3{
+  margin-bottom: 0;
+}
+.pessoa{
+  margin-bottom: 10%;
+}
+.função{
+  padding-bottom: 2%;
+  padding-left: 3%;
+  color: #a18b4f;
+  margin: 0 ;
+}
+.equipe img{
+  width: 40%;
+  height: 40%;
+  border-radius: 50%;
+  border: 4px solid #a18b4f;
+}
+.equipe p{
+  padding-left: 3%;
+}
+
+.equipe ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 3%;
+  list-style-type: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul h4{
+  margin: 0;
+  color: #a18b4f;
+
+}
+a img{
+  width: 100%;
+  height: 100%;
+  margin-top: 2%;
+  border-radius: 10%;
+  border-color: #202038;
+  border-width: 1px;
+  border-style: solid;
+
+}
+::-webkit-scrollbar {
+  width: 0.5em;
+  border-radius: 10%;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #a18b4f;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+main {
+  padding-top: 80px;
+  overflow-y: scroll;
+}
+@media (max-width : 900px) {
+  header a {
+    font-size: medium;
+  }
+
+}
+@media (max-width : 770px) {
+  header a {
+    font-size: small;
+  }
+
+}
+@media (max-width : 700px) {
+  #header-links {
+    display: none;
+  }
+
+  header {
+    justify-content: space-around;
+  }
+  .pessoa{
+    flex-direction: column;
+  }
+  .pessoa img{
+    align-self: center;
+  }
+}
+@media (max-width : 500px) {
+  header {
+    justify-content: space-between;
+    padding-right: 100%;
+  }
+  header img
+  {
+    padding-right: 5%;
+  }
+}
+@media (max-width : 380px) {
+  .title{
+    font-size: x-large;
+  }
+  .subtitle{
+    font-size: small;
+  }
+}
