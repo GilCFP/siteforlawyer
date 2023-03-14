@@ -13,7 +13,7 @@ São links:
 
 
 ## Mobile
-Os links são os mesmos da versão desktop porém possui uma certa responsividade para manter um design agradável e sem sobreposições
+Os links são os mesmos da versão desktop porém possui uma certa responsividade para manter um design agradável.
 ![image](https://user-images.githubusercontent.com/87478201/219022171-6ffd2613-e0f1-4968-a060-6e6d3ab40acd.png)<br>
 ![image](https://user-images.githubusercontent.com/87478201/219022921-24d906dc-0380-4aa9-a7ba-ccf17f136fb4.png)<br>
 ![image](https://user-images.githubusercontent.com/87478201/219023089-f245dc6e-d638-4dc7-b14c-f94a7722b0fe.png)
