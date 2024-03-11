@@ -1,5 +1,5 @@
 # Website
-Esse é um website que desenvolvi como forma de estudo e como presente de aniversário para o meu pai<br>
+Esse é um website que desenvolvi como forma de estudo<br>
 https://gilcfp.github.io/siteforlawyer/
 ## Desktop
 Os links na header redirecionam para uma seção específica da página
